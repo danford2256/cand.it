@@ -1,0 +1,670 @@
+<! DOCTYPE html>
+
+<html>
+
+<head> 
+  <title>CAND.IT</title>
+	<link href="style.css" rel="stylesheet">
+	<link href="CAND.IT.css" rel="stylesheet">
+</head>
+<body>
+
+<div id="navbar">
+   <div class="logo"><a href="#"><img src="CANDIT-logos-more.jpeg" alt="logo" style="height:60px; width: 80px; margin-top: -20px;" ></a>
+     </div>
+   <div id="navbar-right">
+  <a class="active" href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.html">Home</a>
+  <a href="#news">News</a>
+  <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html">Contact</a>
+   </div>
+  <script>
+ // When the user scrolls down 20px from the top of the document, slide down the navbar
+// When the user scrolls to the top of the page, slide up the navbar (50px out of the top view)
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+}
+</script>
+</div>
+
+
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>CAND.IT</h1>
+    <p>The perfect website builder for you</p>
+	 <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html"> <button style="background-color: #FFFDD0; border-radius:8px; height: 25px; width: 90px; font-size:10px; font-family:'Skranji', cursive;"> Talk to us </button> </a>
+
+  </div>
+</div>
+
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/profile.php?id=61555013582270" class="facebook"><i class="fa fa-facebook"></i></a>
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+  <a href="https://www.instagram.com/_cand.it_/" class="instagram"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="https://wa.me/+254798908146" class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+</div>
+
+<div class="container">
+     <ul class="myUL">
+    <li><b>WEBSITES WITH INFINITE POSSIBILITIES</b></li>
+  </ul>
+   </div>
+   
+<div class="responsive">
+  <div class="gallery">
+    <a href="code.jpg">
+      <img src="code.jpg" alt="Codes">
+    </a>
+    <div class="desc">Building a website with no limits</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="x504.webp">
+      <img src="x504.webp" alt="a website">
+    </a>
+    <div class="desc">Where all creativity, Designs and imaginations come to life with <b>CAND.IT</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="types-of-websites.jpg">
+      <img src="types-of-websites.jpg" alt="businesses">
+    </a>
+    <div class="desc">Over millions of businesses have prospered with amaizing websites from <b>CAND.IT</b></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="0x0.webp">
+      <img src="0x0.webp" alt="building">
+    </a>
+    <div class="desc">A website that succesfully grows with you </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+ 
+ <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width slides/quotes -->
+  <div class="mySlides">
+    <q>Transform your online presence with our stunning websites</q>
+    <p class="author">CAND.IT</p>
+  </div>
+
+  <div class="mySlides">
+    <q>elevate your brand, boost conversations and take the step to online success with cand.it.</q>
+    <p class="author">CEO.DANFOLD</p>
+  </div>
+
+  <div class="mySlides">
+    <q>When you are succesfull we are succesfull.</q>
+    <p class="author">cand.it Team</p>
+  </div>
+
+  <!-- Next/prev buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+  
+<div class="row">
+  <div class="column" style="background-color:#F0EAD6;">
+    <h2 style="text-align:center;">Only at CAND.IT</h2>
+    <p style="text-align:center;" >Building more than just a website from selling online,
+	   starting a blog and organising events <br>to promoting your business
+	   and building your community, with cand.it <br>with an affordable website
+	   just for you.</p>
+  </div>
+  <div class="column" style="background-color:#FFFAF0;">
+    <h2 style="text-align:center;">Experience with CAND.IT</h2>
+    <p style="text-align:center;">Delivering success in results to your project and businesses 
+	      is our priority.When your are succesfull we are succesfull</p>
+  </div>
+</div>
+
+<div class="foot">
+    <h2 style="text-align:center;">We're here for you</h2>
+	<p style="text-align:center;">Tell us about your project</p>
+</div>
+
+
+<!-- zigzag columns -->
+<div class="container1">
+  <div class="row">
+    <div class="column-66">
+     <!-- Trigger the Modal -->
+<img id="myImg" src="mobile-site.jpg" alt="Access from all gadgets." style="width:600px; height:400px; ">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption">Access from all Gadgets.</div>
+   </div>
+<script>
+     // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>  
+    </div>
+<div class="column-33">
+     <h1>WELCOME TO CAND.IT</h1>
+	  <h2>Our services</h2>
+	  <p style="text-align:centre;"> <ul>
+	         <li>Website development</li>
+			 <li>Website design and maintenance</li>
+			 <li>Online advertising services</li>
+		  </ul>
+		 <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html"> <button style="background-color: #FFFDD0; border-radius:8px; height: 25px; width: 90px; font-size:10px; font-family:'Skranji', cursive;"> Get started </button> </a>
+	  </p>
+    </div>
+  </div>
+</div>
+
+<div class="container1">
+  <div class="row">
+    <div class="column-33">
+	<h2 style="text-align:center;" >Our community</h2>
+      <p style="text-align:center;" >We are passionate about turning ideas into digital brilliance.<br>
+	  Crafting stunning, user-friendly websites that engage your audience.<br>Elevate your brand,
+	  boost conversations and take the first step towards online success. <br>
+	  Here to bring your vision to life. 
+	  </p>
+      <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html"> <button style="background-color: #FFFDD0; border-radius:8px; height: 25px; width: 90px; font-size:10px; font-family:'Skranji', cursive;">Get started</button> </a>	  
+    </div>
+    <div class="column-66">
+      <img id="myImg" src="Teamwork.png" alt="We work." style="width:600px; height:250px; max-width:600px">
+    </div>
+  </div>
+</div>
+
+
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> OFFERS</title>
+    
+</head>
+<body>
+
+    <section id="services">
+        <h2 class="heading"> We also provide.... </h2>
+        <p> Get to experience and enjoy our offers too. </p>
+        <!-- Services Main Container Starts from Here -->
+        <div class="services-container">
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-solid fa-desktop"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Professional crafted websites </h2>
+                    <p>An eye catching, quality Graphics and captivating websties modified just for you!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-solid fa-chart-line"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Domains </h2>
+                    <p>Get domain names that come with our designed websites to your likeness!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-brands fa-telegram"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Hosting </h2>
+                    <p>we know business never stops and neither should your business!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-solid fa-building-columns"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Graphic designs </h2>
+                    <p>To make it outstanding it needs to be eye catching. Get amaizing designed graphics to make your website appealing!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-sharp fa-solid fa-credit-card"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Flyers, Bronchures, logos! </h2>
+                    <p>Get exclusive and amaizing designs for advertising and branding your projects and business too!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+
+            <!-- Service Item starts from here -->
+            <div class="service-item">
+                <ul>
+                    <li><i class="fa-solid fa-bag-shopping"></i></li>
+                </ul>
+                <article>
+                    <h2 class="service-heading"> Company profile </h2>
+                    <p>Tell your brand's story in compeling way boosting trust in your clients!</p>
+                </article>
+            </div>
+            <!-- Service Item Ends here -->
+    </section>
+</body>
+
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+<div class="row2">
+  <div class="column2">
+    <div class="card2">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>Partners</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card2">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+</h3>
+      <p>Projects</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card2">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card2">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>100+</h3>
+      <p>Meetings</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="bg-img">
+  <div class="container9">
+    <div class="topnav">
+      <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.html">Home</a>
+      <a href="#news">News</a>
+      <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html">Contact</a>
+      <a href="#about">About</a>
+    </div>
+  </div>
+</div>
+
+<div class="container9">
+  <div class="text-block">
+    <h4>CAND.IT</h4>
+    <p>Discover our diverse range of services and descover<br>how we can help you succeed in the digital world. </p>
+  </div>
+</div>
+
+<div class="chat" id="open">
+<div class="chat" onclick="chat()"></div>
+</div>
+<div id="close"></div> 
+<div class="te" id="textarea"> 
+
+<div id="netb"><p class="netb6">Send us a message</p></div>
+
+<form method="post" name="contactform" action="contact.php"> 
+
+<div class="x-netb"><input class="netb4" type="text" name="name" placeholder="Name"></div>
+      
+<div class="x-netb"><input class="netb4" type="text" name="email" placeholder="Email Address"> </div>
+
+<div class="x-netb"><textarea class="netb5" type="text" name="message" placeholder="Message"></textarea></div>
+
+<button type="submit" class="netb2">Submit</button>
+
+<button type="button" id="close-button" class="netb3" onclick="chatClose()">Close</button>
+
+<button type="reset" value="Reset" name="reset" class="netb1">Reset</button>
+
+</form>
+<script>
+function chat() {
+  document.getElementById("open").style.display = "none";
+  document.getElementById("close").style.display = "block";
+  document.getElementById("textarea").style.display = "block";}
+function chatClose() {
+  document.getElementById("open").style.display = "block";
+  document.getElementById("close").style.display = "none";
+  document.getElementById("textarea").style.display = "none";}
+</script>
+</div>
+
+
+<?php 
+$errors = '';
+$myemail = 'cand.it.webdesigner@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+
+$name = $_POST['name']; 
+$email_address = $_POST['email']; 
+$message = $_POST['message']; 
+
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+
+if( empty($errors))
+{
+	$to = $myemail; 
+	$email_subject = "Contact form submission: $name";
+	$email_body = "You have received a new message. ".
+	" Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message"; 
+	
+	$headers = "From: $myemail\n"; 
+	$headers .= "Reply-To: $email_address";
+	
+	mail($to,$email_subject,$email_body,$headers);
+	//redirect to the 'thank you' page
+	header('Location:file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.html');-----Put Your pages thank you here or any pages.
+} 
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<html>
+<head>
+	<title>Contact form email</title>
+</head>
+
+<body>
+<!-- This page is displayed only if there is some error -->
+<?php
+echo nl2br($errors);
+?>
+</body>
+</html>
+
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+  </head>
+  <body>
+    <div class="container76">
+      <h2>Frequently Asked Questions</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">What type of websites do you make ?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              we have a large variety of websites that we make such as<br>
+			  blogs, celebrity websites, entertainment, online shops, social media, E-commerce, etc......
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">How long does it take to build a website?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              normaly it mostly depends on the type of website we are building<br>
+			  but we always work according to the clients deadline.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">Can you work on an existing website?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Nothing is impossible, yes we can modify and also rebuild <br>
+			  an existing website just according to our clients.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">Do you provide a domain name?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              yes! at candit we build and develop websites and also provide domain names .
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">Do you provide hosting services?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Yes we do provide hosting services to our clients <br>for a bonus period then to the agreed time.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>const items = document.querySelectorAll('.accordion button');
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach((item) => item.addEventListener('click', toggleAccordion));
+	</script>
+  </body>
+</html>
+
+<div class="x-container x-card x-black x-round x-margin">
+<p id="x2">In patnered with....</p>
+<div class="row">
+  <div class="column8">
+    <div class="card">
+      <img src="micro (5).png" alt="google website" style="height:30px; Width:70px;">
+    
+    </div>
+  </div>
+
+  <div class="column8">
+    <div class="card">
+      <img src="yahooo.png" alt="google website" style="height:30px; Width:70px;">
+    </div>
+  </div>
+  
+  <div class="column8">
+    <div class="card">
+      <img src="ou-ei.jpg" alt="google website" style="height:30px; Width:70px;">
+    </div>
+  </div>
+  
+  <div class="column8">
+    <div class="card">
+     <img src="google(2).png" alt="google website" style="height:30px; Width:70px;">
+    </div>
+  </div>
+</div>
+
+
+<div class="hero-image2">
+  <div class="hero-text2">
+    <h1>Tommorow's success starts today.</h1>
+     <a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT.contactform.html"> <button style="background-color: #00B7EB; border-radius:8px; height: 25px; width: 90px; font-size:10px; font-family:'Skranji', cursive;"> Talk to us </button> </a>
+  </div>
+</div>
+</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li onclick="myFunction()" ><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+							<li><a href="#">Advertising</a><?li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="https://maps.app.goo.gl/wGbhhB43vmBK1Gb87">Company</a></li>
+                            <li><a href="https://maps.app.goo.gl/VvtKwXfWgdtAEmNeA">Location</a></li>
+                            <li><a href="https://wa.me/+254798908146">+254798908146</a></li>
+							<li><a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT%20refund%20pollicy.html">Refund Policy</a></li>
+							<li><a href="file:///C:/Users/_CAN.DY_/Documents/CAND.IT/CAND.IT%20privacy%20policy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>CAND.IT</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">copyright 2023 © CAND.IT</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+  
+ 
+
+  
+</body>
+</html>
